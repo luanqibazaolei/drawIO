@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" modified="2023-12-15T09:19:06.971Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="6zfjprANzz_xFNgNcBIS" version="22.1.9" type="github">
+  <diagram name="第 1 页" id="xdEy2CYYcoy9b3GZOTB9">
+    <mxGraphModel dx="1727" dy="797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oOGOKA3ZSwM24uWcCO-e-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-188" y="99" width="540" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="oOGOKA3ZSwM24uWcCO-e-1" value="TCP服务端" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-105" y="159" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oOGOKA3ZSwM24uWcCO-e-3" value="IPC-Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-8" y="115" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oOGOKA3ZSwM24uWcCO-e-4" value="WebSocket" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="176" y="164" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oOGOKA3ZSwM24uWcCO-e-6" value="IPC-VTE" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="519" y="216" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oOGOKA3ZSwM24uWcCO-e-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=none;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="331" y="204" as="sourcePoint" />
+            <mxPoint x="506" y="241" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oOGOKA3ZSwM24uWcCO-e-9" value="硬件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="159" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oOGOKA3ZSwM24uWcCO-e-10" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=none;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oOGOKA3ZSwM24uWcCO-e-9" target="oOGOKA3ZSwM24uWcCO-e-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-307" y="250" as="sourcePoint" />
+            <mxPoint x="-138" y="248" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oOGOKA3ZSwM24uWcCO-e-11" value="&lt;b&gt;&lt;br&gt;/{no}/forward&lt;/b&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 16px; font-weight: 400;&quot;&gt;前端下发指令&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="348" y="349" width="190" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="oOGOKA3ZSwM24uWcCO-e-12" value="Controller" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="176" y="259" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oOGOKA3ZSwM24uWcCO-e-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=none;curved=1;" edge="1" parent="1" target="oOGOKA3ZSwM24uWcCO-e-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="512" y="264" as="sourcePoint" />
+            <mxPoint x="500" y="297" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oOGOKA3ZSwM24uWcCO-e-14" value="&lt;b&gt;&lt;br&gt;/ipc&lt;br&gt;&lt;br&gt;ws连接 传输设备&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="372" y="92" width="190" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="oOGOKA3ZSwM24uWcCO-e-15" value="&lt;br&gt;b.group 装载配置 、 线程对象 、 子处理器&lt;br&gt;&lt;br&gt;其中子处理器 依次执行&amp;nbsp;BasicDecoder（头检测）、IdleStateHandler（心跳） 、&amp;nbsp;RsInboundHandler（根据设备上报状态处理）&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-201" y="273" width="341" height="215" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
